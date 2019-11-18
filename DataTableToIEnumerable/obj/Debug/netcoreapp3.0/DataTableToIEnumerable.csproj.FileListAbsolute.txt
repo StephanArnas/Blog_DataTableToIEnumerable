@@ -1,0 +1,13 @@
+C:\Git\stephanarnas\Blogs\Blog_DataTableToIEnumerable\DataTableToIEnumerable\bin\Debug\netcoreapp3.0\DataTableToIEnumerable.exe
+C:\Git\stephanarnas\Blogs\Blog_DataTableToIEnumerable\DataTableToIEnumerable\obj\Debug\netcoreapp3.0\DataTableToIEnumerable.csprojAssemblyReference.cache
+C:\Git\stephanarnas\Blogs\Blog_DataTableToIEnumerable\DataTableToIEnumerable\obj\Debug\netcoreapp3.0\DataTableToIEnumerable.AssemblyInfoInputs.cache
+C:\Git\stephanarnas\Blogs\Blog_DataTableToIEnumerable\DataTableToIEnumerable\obj\Debug\netcoreapp3.0\DataTableToIEnumerable.AssemblyInfo.cs
+C:\Git\stephanarnas\Blogs\Blog_DataTableToIEnumerable\DataTableToIEnumerable\bin\Debug\netcoreapp3.0\DataTableToIEnumerable.deps.json
+C:\Git\stephanarnas\Blogs\Blog_DataTableToIEnumerable\DataTableToIEnumerable\bin\Debug\netcoreapp3.0\DataTableToIEnumerable.runtimeconfig.json
+C:\Git\stephanarnas\Blogs\Blog_DataTableToIEnumerable\DataTableToIEnumerable\bin\Debug\netcoreapp3.0\DataTableToIEnumerable.runtimeconfig.dev.json
+C:\Git\stephanarnas\Blogs\Blog_DataTableToIEnumerable\DataTableToIEnumerable\bin\Debug\netcoreapp3.0\DataTableToIEnumerable.dll
+C:\Git\stephanarnas\Blogs\Blog_DataTableToIEnumerable\DataTableToIEnumerable\bin\Debug\netcoreapp3.0\DataTableToIEnumerable.pdb
+C:\Git\stephanarnas\Blogs\Blog_DataTableToIEnumerable\DataTableToIEnumerable\bin\Debug\netcoreapp3.0\Newtonsoft.Json.dll
+C:\Git\stephanarnas\Blogs\Blog_DataTableToIEnumerable\DataTableToIEnumerable\obj\Debug\netcoreapp3.0\DataTableToIEnumerable.csproj.CopyComplete
+C:\Git\stephanarnas\Blogs\Blog_DataTableToIEnumerable\DataTableToIEnumerable\obj\Debug\netcoreapp3.0\DataTableToIEnumerable.dll
+C:\Git\stephanarnas\Blogs\Blog_DataTableToIEnumerable\DataTableToIEnumerable\obj\Debug\netcoreapp3.0\DataTableToIEnumerable.pdb
