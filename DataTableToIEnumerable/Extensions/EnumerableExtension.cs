@@ -89,22 +89,6 @@ namespace DataTableToIEnumerable.Extensions
             return dataTable;
         }
 
-        public static ICollection<T> UpdatePropertyValue<T>(this ICollection<T> source
-            , Expression<Func<T, object>> expression
-            , object value) where T : new()
-        {
-            if (source == null) return null;
-            if (expression == null) return source;
-
-            var propertyName = expression.Body.GetMemberName();
-            foreach (var item in source)
-            {
-                var propertyInfo = item.GetType().GetProperty(propertyName);
-                propertyInfo.SetValue(item, value);
-            }
-            return source;
-        }
-
         #endregion
     }
 }
