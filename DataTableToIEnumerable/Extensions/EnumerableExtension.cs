@@ -55,11 +55,12 @@ namespace DataTableToIEnumerable.Extensions
                 {
                     if (properties[i].GetCustomAttributes(typeof(TableFieldNameAttribute), true).FirstOrDefault() != null)
                     {
-                        if (typeof(IEnumerable).IsAssignableFrom(properties[i].PropertyType) && properties[i].PropertyType.IsNonStringEnumerable())
+                        if (typeof(IEnumerable).IsAssignableFrom(properties[i].PropertyType) 
+                            && properties[i].PropertyType.IsNonStringEnumerable())
                         {
-                            // TODO : We have an IEnumerable object, need to do some recursivity here.
-                            // I just start the code but it's not finished and it's not working well. 
-                            // If you want to help, please make a pull request (I will reference you in my article also). :)
+                            // TODO : We have an IEnumerable object and we need to do some recursivity here.
+                            // I just started the code but it's not finished and it's not working. 
+                            // If you want to help, please make a pull request (I will reference you in my article also).
 
                             // The current item is an Enumerable source, so we need a custom process.
                             // Store the current IEnumerable property into a variable.
@@ -74,7 +75,7 @@ namespace DataTableToIEnumerable.Extensions
                             // Fulfill the temporary object with all the values from the item in the enumerable.
                             values[valuesIndex] = properties[i].GetValue(item, null);
                         }
-                        // Custom index because we want to avoid the properties which don't have the progress attribut.
+                        // Custom index because we want to avoid the properties which don't have the attribut.
                         valuesIndex++;
                     }
                 }

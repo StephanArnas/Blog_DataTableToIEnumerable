@@ -30,7 +30,7 @@ namespace DataTableToIEnumerable.Extensions
                 item = (T)Activator.CreateInstance(typeof(T));
                 foreach (var property in properties)
                 {
-                    // Get the progress attribute.
+                    // Get the attribute.
                     attribut = property
                         .GetCustomAttributes(typeof(TableFieldNameAttribute), true)
                         .FirstOrDefault() as TableFieldNameAttribute;
@@ -40,7 +40,8 @@ namespace DataTableToIEnumerable.Extensions
 
                     if (source.Columns.Contains(attribut.Name))
                     {
-                        if (typeof(IEnumerable).IsAssignableFrom(property.PropertyType) && property.PropertyType.IsNonStringEnumerable())
+                        if (typeof(IEnumerable).IsAssignableFrom(property.PropertyType) 
+                            && property.PropertyType.IsNonStringEnumerable())
                         {
                             // TODO : Handle IEnumerable object. 
                             // If you want to help, please make a pull request (I will reference you in my article also). :)
@@ -48,7 +49,8 @@ namespace DataTableToIEnumerable.Extensions
                         else
                         {
                             // Set the desired object with the value from the row.
-                            if (property.PropertyType == typeof(decimal) && row[attribut.Name].ToString() == string.Empty)
+                            if (property.PropertyType == typeof(decimal) 
+                                && row[attribut.Name].ToString() == string.Empty)
                             {
                                 property.SetValue(item, Convert.ChangeType(0, property.PropertyType), null);
                             }

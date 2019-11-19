@@ -14,6 +14,7 @@ namespace DataTableToIEnumerable
             var usersSourceDataTable = CreateMockUserDataTable();
             var usersConvertedList = usersSourceDataTable.ToEnumerable<User>();
 
+
             // Convert from an IEnumerable source to a DataTable.
             var usersSourceList = CreateMockUserList();
             var usersConvertedDataTable = usersSourceList.ToDataTable<User>();
